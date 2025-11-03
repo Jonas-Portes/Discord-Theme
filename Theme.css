@@ -1,4 +1,4 @@
-{} /* Background */
+
 
 /* Larger server icons */
 @import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
@@ -480,7 +480,7 @@ a:link {
     background-color: #afafff;
 }
 .links {
-    `display: none;
+    display: none;
     border-top: 1px solid #afafff;
 }
 .links:after {
@@ -2598,11 +2598,19 @@ nav.guilds_c48ade {
 
 
 /* larger timestamps */
+/*DISABLED AS NOTHING IS WORKING ANYMORE*/
+/*
 span[class*="timestampInline_"] time::before {
-  content: attr(aria-label);
-  font-size: 12px;
+  /*content: attr(aria-label);
+  content: attr(r1h);
+  font-size: 20px;
 }
 
 span[class*="timestampInline_"] {
   font-size: 0px !important;
 }
+  
+
+span[class*="hiddenVisually_b18fe2"] time::before {
+  font-size: 20px;
+}*/
